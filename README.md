@@ -3,6 +3,8 @@
 ![Indian truck license plate samples](assets/cover_wide.jpg)
 
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+[![Kaggle](https://img.shields.io/badge/Kaggle-dataset-20BEFF.svg)](https://www.kaggle.com/datasets/witvixsystem/indian-truck-license-plates-sample)
+[![Hugging Face](https://img.shields.io/badge/Hugging%20Face-dataset-FFD21E.svg)](https://huggingface.co/datasets/witvix/indian-truck-license-plates-sample)
 [![Made by Witvix](https://img.shields.io/badge/made%20by-Witvix-blue.svg)](https://witvix.com)
 
 Real-world photos of Indian commercial vehicles -- mostly trucks, plus some buses and vans --
@@ -14,16 +16,26 @@ This is a free sample of a larger commercial dataset; see [Full dataset](#full-d
 
 ## Download
 
-Get `witvix-indian-truck-plates-sample-v1.zip` (131 MB) from
-[Releases](https://github.com/witvix/indian-truck-license-plates/releases), then:
+The dataset (131 MB) is hosted on Kaggle and Hugging Face; this repo has the docs and example code.
+
+| | |
+|---|---|
+| **Kaggle** | [kaggle.com/datasets/witvixsystem/indian-truck-license-plates-sample](https://www.kaggle.com/datasets/witvixsystem/indian-truck-license-plates-sample) |
+| **Hugging Face** | [huggingface.co/datasets/witvix/indian-truck-license-plates-sample](https://huggingface.co/datasets/witvix/indian-truck-license-plates-sample) (free; fill in a short access form first) |
 
 ```bash
-unzip witvix-indian-truck-plates-sample-v1.zip
+# Kaggle (pip install kaggle; API token from kaggle.com > Settings > API)
+kaggle datasets download witvixsystem/indian-truck-license-plates-sample -p indian-truck-license-plates-sample --unzip
+
+# or Hugging Face (pip install -U huggingface_hub; hf auth login; accept the form on the dataset page)
+hf download witvix/indian-truck-license-plates-sample --repo-type dataset --local-dir indian-truck-license-plates-sample
+
+# look at a few samples
 pip install opencv-python pandas
 python examples/show_samples.py indian-truck-license-plates-sample
 ```
 
-The file list below is the inside of the zip.
+The file list below is the inside of the downloaded folder.
 
 ## At a glance
 
