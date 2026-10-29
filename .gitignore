@@ -1,0 +1,5 @@
+# the dataset itself is distributed as a release asset, not committed
+*.zip
+indian-truck-license-plates-sample/
+samples_out/
+__pycache__/
