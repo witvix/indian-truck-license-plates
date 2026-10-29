@@ -43,11 +43,11 @@ The file list below is the inside of the zip.
 ## Files
 
 ```
-images/<id>.jpg           photos
-labels/<id>.txt           YOLO boxes: "0 cx cy w h" (normalized), class 0 = license_plate
+images/img_0001.jpg       photos (img_0001 ... img_0470)
+labels/img_0001.txt       YOLO boxes: "0 cx cy w h" (normalized), class 0 = license_plate
 data.yaml                 YOLO dataset file
 annotations_coco.json     the same boxes in COCO format, plate text in "attributes"
-plates/<id>_<k>.jpg       plate crops for recognition (box + 5% margin)
+plates/img_0001_0.jpg     plate crops for recognition (box + 5% margin); _0, _1 = plate index
 plates.csv                one row per plate
 metadata.csv              one row per image
 ```
