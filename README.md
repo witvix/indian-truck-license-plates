@@ -149,4 +149,4 @@ YOLO (Ultralytics): `yolo detect train data=data.yaml model=yolo11n.pt`
 
 ## Full dataset
 
-A larger commercial dataset from Witvix -- same sources, labelling and privacy process, plus unreadable-plate labels and a vehicle-disjoint train / val / test split, growing every month -- is available for licensing. For the current size and pricing, open a discussion on the page where you found this dataset.
+A larger commercial dataset from Witvix -- same sources, labelling and privacy process, plus unreadable-plate labels and a vehicle-disjoint train / val / test split, growing every month -- is available for licensing. For the current size and pricing, email **connect@witvix.com**.
